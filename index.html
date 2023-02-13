@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <link rel="stylesheet" href="style.css"/>
-  </head>
-  
-  <body>
-   <! Title >
-    <div class="header1">
+<header>
+      <div class="header1">
       Steven Petersen
     </div>
     
@@ -15,8 +8,21 @@
     </div>
     
     <br>
-    
-   <! Work history> 
+ 
+</header>
+
+<body>
+  
+<div class="tab">
+  <button class="tablinks" onclick="Tabs(event, 'Financial Services')">Financial Services</button>
+  <button class="tablinks" onclick="Tabs(event, 'Teaching - Mathematics')">Teaching - Mathematics</button>
+  <button class="tablinks" onclick="Tabs(event, 'Additional Employment')">Additional Employment</button>
+  <button class="tablinks" onclick="Tabs(event, 'Education')">Education</button>
+  <button class="tablinks" onclick="Tabs(event, 'Nonproft Service')">Nonproft Service</button>
+</div>
+
+
+<div id="Financial Services" class="tabcontent">
     <div class="header3">
       Financial Services
     </div>
@@ -211,10 +217,9 @@
         <li>Maintained an automation macro that improved quality and efficiency for the entire department
 
     </div>
+</div>
 
-      
-    <! Teaching history>  
-    
+<div id="Teaching - Mathematics" class="tabcontent">
     <div class ="header3">
       Teaching - Mathematics       
     </div>
@@ -238,9 +243,9 @@
       </ul>
       <ul>
         <li class="list1">Minneapolis Public Schools										 <li class="list2">(2014)
-    </div>
-    
-      
+    </div></div>
+
+<div id="Additional Employment" class="tabcontent">
     <div class ="header3">
       Additional Employment       
     </div>
@@ -269,8 +274,9 @@
 
 
     </div>
-      
-      <!Education>
+  </div>
+
+<div id="Education" class="tabcontent">
     <div class="header3">
       Education 
     </div>
@@ -318,16 +324,16 @@
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Majors: Mathematics and Statistics
 
     </div>
-  
-      
-      <!Nonprofit service>
-      
-      <div class="header3">
+
+</div>
+
+<div id="Nonproft Service" class="tabcontent">
+    <div class="header3">
       Nonproft Service  
-      </div>
+    </div>
       
       
-         <div class="body1">
+    <div class="body1">
     Hardanger Fiddle Association of America
     </div>
     
@@ -338,7 +344,12 @@
     <div class="body3">
 	Board member
     </div>
-    
-       
+</div>
+  
   </body>
-</html>
+  
+  
+  
+  
+  
+  
